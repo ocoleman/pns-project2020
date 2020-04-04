@@ -16,3 +16,5 @@ The Fisher's Iris data set is a multivariate data set that contains 150 records 
 
 
 https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv
+
+<p align="center">Iris flower species (Iris setosa, I. virginica and I. versicolor)</p>
