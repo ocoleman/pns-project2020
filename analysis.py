@@ -11,9 +11,7 @@ def summary():
         f.write("TEXT GOES HERE")
 
 
-def plots():
-    df = pd.read_csv("iris.csv")
-
+def hist(df):
 
     plt.hist(df['petal_length'])
     plt.title("Petal Length")
@@ -46,11 +44,23 @@ def plots():
     plt.savefig("plots/hist-sepal_width.png")
     plt.clf()
 
+def plots(df):
+    setosa = df[df['species'] == 'setosa']
+    versicolor = df[df['species'] == 'versicolor']
+    virginica = df[df['species'] == 'virginica']
+
+    #compare goes here
+    
+
+
+
 
 
 def main():
+    df = pd.read_csv("iris.csv")
     summary()
-    plots()
+    hist(df)
+    plots(df)
 
 
 
