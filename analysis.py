@@ -12,7 +12,7 @@ def summary():
 
 
 def hist(df):
-
+    
     plt.hist(df['petal_length'])
     plt.title("Petal Length")
     plt.xlabel("Length(cm) -->")
@@ -45,13 +45,175 @@ def hist(df):
     plt.clf()
 
 def plots(df):
-    setosa = df[df['species'] == 'setosa']
-    versicolor = df[df['species'] == 'versicolor']
-    virginica = df[df['species'] == 'virginica']
+    #Assigned variables to the data of the three species. 
+    iris_set = df[df['species'] == 'setosa']
+    iris_vers = df[df['species'] == 'versicolor']
+    iris_virg = df[df['species'] == 'virginica']
 
-    #compare goes here
+    #####Sepal Length#####
+    #---Sepal Length vs Sepal Width---
+    plt.plot(iris_set["sepal_length"], iris_set["sepal_width"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["sepal_length"], iris_vers["sepal_width"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["sepal_length"], iris_virg["sepal_width"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Sepal Length vs Speal Width (in cm)")
+    plt.xlabel("Sepal Length")
+    plt.ylabel("Sepal Width")
+    #Saving and clearing the figure.
+    plt.savefig("plots/1sepallength-vs-sepalwidth.png")
+    plt.clf()
+
+    #---Sepal Length vs Petal Length---
+    plt.plot(iris_set["sepal_length"], iris_set["petal_length"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["sepal_length"], iris_vers["petal_length"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["sepal_length"], iris_virg["petal_length"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Sepal Length vs Petal Length (in cm)")
+    plt.xlabel("Sepal Length")
+    plt.ylabel("Petal Length")
+    #Saving and clearing the figure.
+    plt.savefig("plots/2sepallength-vs-petallength.png")
+    plt.clf()
+
+    #---Sepal Length vs Petal Width---
+    plt.plot(iris_set["sepal_length"], iris_set["petal_width"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["sepal_length"], iris_vers["petal_width"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["sepal_length"], iris_virg["petal_width"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Sepal Length vs Petal Width (in cm)")
+    plt.xlabel("Sepal Length")
+    plt.ylabel("Petal Width")
+    #Saving and clearing the figure.
+    plt.savefig("plots/3sepallength-vs-petalwidth.png")
+    plt.clf()
+
+
+
+    #####Sepal Width#####
+    #---Sepal Width vs Sepal Length---
+    plt.plot(iris_set["sepal_width"], iris_set["sepal_length"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["sepal_width"], iris_vers["sepal_length"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["sepal_width"], iris_virg["sepal_length"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Sepal Width vs Sepal Length (in cm)")
+    plt.xlabel("Sepal Width")
+    plt.ylabel("Sepal Length")
+    #Saving and clearing the figure.
+    plt.savefig("plots/4sepalwidth-vs-sepallength.png")
+    plt.clf()
+
+    #---Sepal Width vs Petal Length---
+    plt.plot(iris_set["sepal_width"], iris_set["petal_length"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["sepal_width"], iris_vers["petal_length"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["sepal_width"], iris_virg["petal_length"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Sepal Width vs Petal Length (in cm)")
+    plt.xlabel("Sepal Width")
+    plt.ylabel("Petal Length")
+    #Saving and clearing the figure.
+    plt.savefig("plots/5sepallwidth-vs-petallength.png")
+    plt.clf()
+
+    #---Sepal Width vs Petal Width---
+    plt.plot(iris_set["sepal_width"], iris_set["petal_width"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["sepal_width"], iris_vers["petal_width"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["sepal_width"], iris_virg["petal_width"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Sepal Width vs Petal Width (in cm)")
+    plt.xlabel("Sepal Width")
+    plt.ylabel("Petal Width")
+    #Saving and clearing the figure.
+    plt.savefig("plots/6sepalwidth-vs-petalwidth.png")
+    plt.clf()
+
     
+    #####Petal Length#####
+    #---Petal Length vs Sepal Length---
+    plt.plot(iris_set["petal_length"], iris_set["sepal_length"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["petal_length"], iris_vers["sepal_length"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["petal_length"], iris_virg["sepal_length"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Petal Length vs Sepal Length (in cm)")
+    plt.xlabel("Petal Length")
+    plt.ylabel("Sepal Length")
+    #Saving and clearing the figure.
+    plt.savefig("plots/7petallength-vs-sepallength.png")
+    plt.clf()
 
+    #---Petal Length vs Sepal Width---
+    plt.plot(iris_set["petal_length"], iris_set["sepal_width"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["petal_length"], iris_vers["sepal_width"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["petal_length"], iris_virg["sepal_width"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Petal Length vs Sepal Width (in cm)")
+    plt.xlabel("Petal Length")
+    plt.ylabel("Sepal Width")
+    #Saving and clearing the figure.
+    plt.savefig("plots/8petallength-vs-sepalwidth.png")
+    plt.clf()
+
+    #---Petal Length vs Petal Width---
+    plt.plot(iris_set["petal_length"], iris_set["petal_width"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["petal_length"], iris_vers["petal_width"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["petal_length"], iris_virg["petal_width"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Petal Length vs Petal Width (in cm)")
+    plt.xlabel("Petal Length")
+    plt.ylabel("Petal Width")
+    #Saving and clearing the figure.
+    plt.savefig("plots/9petallength-vs-petalwidth.png")
+    plt.clf()
+
+
+
+    #####Petal Width#####
+    #---Petal Width vs Sepal Length---
+    plt.plot(iris_set["petal_width"], iris_set["sepal_length"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["petal_width"], iris_vers["sepal_length"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["petal_width"], iris_virg["sepal_length"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Petal Width vs Sepal Length (in cm)")
+    plt.xlabel("Petal Width")
+    plt.ylabel("Sepal Length")
+    #Saving and clearing the figure.
+    plt.savefig("plots/10petalwidth-vs-sepallength.png")
+    plt.clf()
+
+    #---Petal Width vs Sepal width---
+    plt.plot(iris_set["petal_width"], iris_set["sepal_width"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["petal_width"], iris_vers["sepal_width"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["petal_width"], iris_virg["sepal_width"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Petal Width vs Sepal Width (in cm)")
+    plt.xlabel("Petal Width")
+    plt.ylabel("Sepal Width")
+    #Saving and clearing the figure.
+    plt.savefig("plots/11petalwidth-vs-sepalwidth.png")
+    plt.clf()
+
+    #---Petal Width vs Petal Length---
+    plt.plot(iris_set["petal_width"], iris_set["petal_length"], "r.", label="Iris Setosa")
+    plt.plot(iris_vers["petal_width"], iris_vers["petal_length"], "g.", label="Iris Versicolor")
+    plt.plot(iris_virg["petal_width"], iris_virg["petal_length"], "b.", label="Iris Virginica")
+    #Providing plots with labels and a legend.
+    plt.legend()
+    plt.title("Petal Width vs Petal Length (in cm)")
+    plt.xlabel("Petal Width")
+    plt.ylabel("Petal Length")
+    #Saving and clearing the figure.
+    plt.savefig("plots/12petalwidth-vs-petallength.png")
+    plt.clf()
 
 
 
