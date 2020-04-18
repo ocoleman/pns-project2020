@@ -7,13 +7,32 @@ import matplotlib.pyplot as plt
 
 
 def summary():
-    with open('Analysis.txt', 'a') as f:
-        f.write("TEXT GOES HERE")
+    with open('Analysis.md', 'w') as f:
+        f.write("Analysis of the Dataset.")
+        f.write("\n")
+        f.write("\nPART I: Histogram Analysis")
+        f.write("\n")
+        f.write("\nPetal Length")
+        f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/hist-petal_length.png' alt='Histogram-Petal Length'>")
+        f.write("""\nAs we can see from the histogram above, the Petal length of the Setosa flowers are tightly situated between 1 and 2 centimetres, with the majority being around the 1.5-centimetre mark.
+The length of the other two species cover a much larger range, between 3 centimetres and just under 7 centimetres. 
+Despite this it seems the petal length of the Iris Virginica is easily distinguishable as the largest of the 3 species of flower.""")
+        f.write("\n ")
+        f.write("\n ")
+
+
 
 
 def hist(df):
-    
-    plt.hist(df['petal_length'])
+
+    iris_set = df[df['species'] == 'setosa']
+    iris_vers = df[df['species'] == 'versicolor']
+    iris_virg = df[df['species'] == 'virginica']
+
+    plt.hist(iris_set['petal_length'], color = "skyblue", label="Iris Setosa")
+    plt.hist(iris_vers['petal_length'], color = "dodgerblue", label="Iris Versicolor")
+    plt.hist(iris_virg['petal_length'], color = "darkblue", label="Iris Virginica")
+    plt.legend(loc="upper right")
     plt.title("Petal Length")
     plt.xlabel("Length(cm) -->")
     plt.ylabel("Count -->")
@@ -21,7 +40,10 @@ def hist(df):
     plt.clf()
 
 
-    plt.hist(df['petal_width'])
+    plt.hist(iris_set['petal_width'], color = "skyblue", label="Iris Setosa")
+    plt.hist(iris_vers['petal_width'], color = "dodgerblue", label="Iris Versicolor")
+    plt.hist(iris_virg['petal_width'], color = "darkblue", label="Iris Virginica")
+    plt.legend()
     plt.title("Petal Width")
     plt.xlabel("Length(cm) -->")
     plt.ylabel("Count -->")
@@ -29,7 +51,10 @@ def hist(df):
     plt.clf()
 
 
-    plt.hist(df['sepal_length'])
+    plt.hist(iris_set['sepal_length'], color = "skyblue", label="Iris Setosa")
+    plt.hist(iris_vers['sepal_length'], color = "dodgerblue", label="Iris Versicolor")
+    plt.hist(iris_virg['sepal_length'], color = "darkblue", label="Iris Virginica")
+    plt.legend()
     plt.title("Sepal Length")
     plt.xlabel("Length(cm) -->")
     plt.ylabel("Count -->")
@@ -37,8 +62,11 @@ def hist(df):
     plt.clf()
 
 
-    plt.hist(df['sepal_width'])
-    plt.title("Sepal Length")
+    plt.hist(iris_set['sepal_width'], color = "skyblue", label="Iris Setosa")
+    plt.hist(iris_vers['sepal_width'], color = "dodgerblue", label="Iris Versicolor")
+    plt.hist(iris_virg['sepal_width'], color = "darkblue", label="Iris Virginica")
+    plt.legend()
+    plt.title("Sepal Width")
     plt.xlabel("Length(cm) -->")
     plt.ylabel("Count -->")
     plt.savefig("plots/hist-sepal_width.png")
@@ -57,7 +85,7 @@ def plots(df):
     plt.plot(iris_virg["sepal_length"], iris_virg["sepal_width"], "b.", label="Iris Virginica")
     #Providing plots with labels and a legend.
     plt.legend()
-    plt.title("Sepal Length vs Speal Width (in cm)")
+    plt.title("Sepal Length vs Sepal Width (in cm)")
     plt.xlabel("Sepal Length")
     plt.ylabel("Sepal Width")
     #Saving and clearing the figure.
@@ -89,8 +117,6 @@ def plots(df):
     #Saving and clearing the figure.
     plt.savefig("plots/3sepallength-vs-petalwidth.png")
     plt.clf()
-
-
 
     #####Sepal Width#####
     #---Sepal Width vs Sepal Length---
@@ -222,7 +248,7 @@ def main():
     df = pd.read_csv("iris.csv")
     summary()
     hist(df)
-    plots(df)
+    #plots(df)
 
 
 

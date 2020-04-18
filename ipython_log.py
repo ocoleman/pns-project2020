@@ -25,3 +25,4 @@ iris_vers = df[df['species'] == 'versicolor']
 iris_virg = df[df['species'] == 'virginica']
 plt.plot(iris_set["petal_length"], iris_set["petal_width"], "r.", label="Iris Setosa")
 plt.plot(iris_vers["petal_length"], iris_set["petal_width"], "g.", label="Iris Versicolor")
+exit()
