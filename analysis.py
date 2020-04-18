@@ -8,11 +8,12 @@ import matplotlib.pyplot as plt
 
 def summary():
     with open('Analysis.md', 'w') as f:
-        f.write("Analysis of the Dataset.")
+        f.write("#Analysis of the Dataset.")
         f.write("\n")
-        f.write("\nPART I: Histogram Analysis")
+        f.write("\n##PART I: Histogram Analysis")
         f.write("\n")
-        f.write("Petal Length")
+        f.write("\n")
+        f.write("###Petal Length")
         f.write("\n")
         f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/hist-petal_length.png' alt='Histogram-Petal Length'>")
         f.write("""\nAs we can see from the histogram above, the Petal length of the Setosa flowers are tightly situated between 1 and 2 centimetres, with the majority being around the 1.5-centimetre mark.
