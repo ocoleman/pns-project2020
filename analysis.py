@@ -20,6 +20,7 @@ def summary():
         f.write("""\nAs we can see from the histogram above, the Petal length of the Setosa flowers are tightly situated between 1 and 2 centimetres, with the majority being around the 1.5-centimetre mark.
 The length of the other two species cover a much larger range, between 3 centimetres and just under 7 centimetres. 
 Despite this it seems the petal length of the Iris Virginica is easily distinguishable as the largest of the 3 species of flower.""")
+        f.write("\n ")
         f.write("\n <h3>Petal Width</h3>")
         f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/hist-petal_width.png' alt='Histogram-Petal Width' align='middle'>")
         f.write("\n ")
@@ -41,7 +42,8 @@ The other two species cover a much broader range, with the Iris Versicolor shari
         f.write("""\nFinally, we have the Sepal Width. As with the previous graph, significant overlap can be observed, however in this visualisation we can see that the Setosas appear to possess a distinguishably wide sepal as compared with the other two species.
 The Versicolor and Virginica present as slightly smaller with a majority of records found in the range between 2.5 and 3.5cm. """)
         f.write("\n ")
-        f.write("\n <h3>Summary</h3>")
+        f.write("\n ")
+        f.write("\n <h2>Summary</h2>")
         f.write("\n ")
         f.write("""\nInitial Histogram analysis suggests that the Iris setosa has the smallest features of the three species, except in the case of its sepal width, which was found to be the largest of three flowers.
 The Iris versicolor and virginica were less easily distinguished across the records. However, in most cases they were larger of the two.  """)
