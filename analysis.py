@@ -58,46 +58,46 @@ def hist(df):
     iris_vers = df[df['species'] == 'versicolor']
     iris_virg = df[df['species'] == 'virginica']
 
-    plt.hist(iris_set['petal_length'], color = "skyblue", label="Iris Setosa")
-    plt.hist(iris_vers['petal_length'], color = "dodgerblue", label="Iris Versicolor")
-    plt.hist(iris_virg['petal_length'], color = "darkblue", label="Iris Virginica")
+    plt.hist(iris_set['petal_length'], color = "red", edgecolor="white", label="Iris Setosa")
+    plt.hist(iris_vers['petal_length'], color = "green", edgecolor="white", label="Iris Versicolor")
+    plt.hist(iris_virg['petal_length'], color = "blue", edgecolor="white", label="Iris Virginica")
     plt.legend(loc="upper right")
     plt.title("Petal Length")
-    plt.xlabel("Length(cm) -->")
-    plt.ylabel("Count -->")
+    plt.xlabel("Length(cm) >>")
+    plt.ylabel("Count >>")
     plt.savefig("plots/hist-petal_length.png")
     plt.clf()
 
 
-    plt.hist(iris_set['petal_width'], color = "skyblue", label="Iris Setosa")
-    plt.hist(iris_vers['petal_width'], color = "dodgerblue", label="Iris Versicolor")
-    plt.hist(iris_virg['petal_width'], color = "darkblue", label="Iris Virginica")
+    plt.hist(iris_set['petal_width'], color = "red", edgecolor="white", label="Iris Setosa")
+    plt.hist(iris_vers['petal_width'], color = "green", edgecolor="white", label="Iris Versicolor")
+    plt.hist(iris_virg['petal_width'], color = "blue", edgecolor="white", label="Iris Virginica")
     plt.legend()
     plt.title("Petal Width")
-    plt.xlabel("Length(cm) -->")
-    plt.ylabel("Count -->")
+    plt.xlabel("Length(cm) >>")
+    plt.ylabel("Count >>")
     plt.savefig("plots/hist-petal_width.png")
     plt.clf()
 
 
-    plt.hist(iris_set['sepal_length'], color = "skyblue", label="Iris Setosa")
-    plt.hist(iris_vers['sepal_length'], color = "dodgerblue", label="Iris Versicolor")
-    plt.hist(iris_virg['sepal_length'], color = "darkblue", label="Iris Virginica")
+    plt.hist(iris_set['sepal_length'], color = "red", edgecolor="white", label="Iris Setosa")
+    plt.hist(iris_vers['sepal_length'], color = "green", edgecolor="white", label="Iris Versicolor")
+    plt.hist(iris_virg['sepal_length'], color = "blue", edgecolor="white", label="Iris Virginica")
     plt.legend()
     plt.title("Sepal Length")
-    plt.xlabel("Length(cm) -->")
-    plt.ylabel("Count -->")
+    plt.xlabel("Length(cm) >>")
+    plt.ylabel("Count >>")
     plt.savefig("plots/hist-sepal_length.png")
     plt.clf()
 
 
-    plt.hist(iris_set['sepal_width'], color = "skyblue", label="Iris Setosa")
-    plt.hist(iris_vers['sepal_width'], color = "dodgerblue", label="Iris Versicolor")
-    plt.hist(iris_virg['sepal_width'], color = "darkblue", label="Iris Virginica")
+    plt.hist(iris_set['sepal_width'], color = "red", edgecolor="white", label="Iris Setosa")
+    plt.hist(iris_vers['sepal_width'], color = "green", edgecolor="white", label="Iris Versicolor")
+    plt.hist(iris_virg['sepal_width'], color = "blue", edgecolor="white", label="Iris Virginica")
     plt.legend()
     plt.title("Sepal Width")
-    plt.xlabel("Length(cm) -->")
-    plt.ylabel("Count -->")
+    plt.xlabel("Length(cm) >>")
+    plt.ylabel("Count >>")
     plt.savefig("plots/hist-sepal_width.png")
     plt.clf()
 
@@ -277,7 +277,7 @@ def main():
     df = pd.read_csv("iris.csv")
     summary()
     hist(df)
-    #plots(df)
+    plots(df)
 
 
 
