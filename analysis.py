@@ -84,13 +84,13 @@ The other interesting thing to note is that there doesn’t seem to be any meani
 Additionally, argument could be made for the existence of a weak correlation amongst the records of the Versicolor and Virginica flowers.""")
         f.write("\n ")
         f.write("\n ")
-        f.write("\n <h2>Part III: Summary</h2>")
+        f.write("\n <h2>PART III: Summary</h2>")
         f.write("\n")
         f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/matrix.png' alt='Matrix' align='center'>")
         f.write("\n ")
         f.write("""\n Trends that were observed amongst the histogram data were compounded by the results of the scatter plots. One such instance of this could be observed in the Iris’ sepal length, where significant overlap occurred alongside the existence of outliers among the Versicolors and Virginicas.
 Conversely, initial indications implied the Setosas broad sepal would be one of the flowers key features, however further investigation showed this to be a less reliable metric for identifying the species. Despite this, the Iris Setosa time and again trended towards the left side of the axis. 
-This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider pe
+This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider petal.
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). """)
 
 
