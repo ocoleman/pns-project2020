@@ -73,7 +73,7 @@ While the Setosa may still appear smaller, there are several outliers amongst th
 The other interesting thing to note is that there doesn’t seem to be any meaningful correlation between the sepal and petal length for the Setosa, despite a strong one being observable amongst the other two species. """)
         f.write("\n ")
         f.write("\n <h3>Petal Width vs Sepal Length</h3>")
-        f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/10petalwidth-vs-sepallength.png alt='PetalWidthvsSepalLength' align='center'>")
+        f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/10petalwidth-vs-sepallength.png' alt='PetalWidthvsSepalLength' align='center'>")
         f.write("\n ")
         f.write("""\nIn what can be seen as a weak correlation at most, the sepal length does somewhat appear to increase as the petal widens across the three species, this trend arguably doesn’t effect the smaller Setosa in this scatter plot, who remain much more distinguishable than the other two when compared by petal width.""")
         f.write("\n ")
@@ -82,6 +82,7 @@ The other interesting thing to note is that there doesn’t seem to be any meani
         f.write("\n ")
         f.write("""\nFinally, we see the measure of petal length to sepal width, we can observe similar trends, such as the generally wider Sepal of the Setosa, and the longer petal of the Virginica.
 Additionally, argument could be made for the existence of a weak correlation amongst the records of the Versicolor and Virginica flowers.""")
+        f.write("\n ")
         f.write("\n ")
         f.write("\n <h2>Part III: Summary</h2>")
         f.write("\n")
