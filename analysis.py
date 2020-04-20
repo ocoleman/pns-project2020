@@ -90,12 +90,13 @@ The other interesting thing to note is that there doesn’t seem to be any meani
         f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/8petallength-vs-sepalwidth.png' alt='PetalLengthvsSepalWidth'>")
         f.write("\n</div> ")
         f.write("\n ")
-        f.write("""\nFinally, we see the measure of petal length to sepal width, we can observe similar trends, such as the generally wider Sepal of the Setosa, and the longer petal of the Virginica.
+        f.write("""\nFinally, we see the measure of petal length to sepal width, we can observe similar trends, such as the generally wider sepal of the Setosa, and the longer petal of the Virginica.
 Additionally, argument could be made for the existence of a weak correlation amongst the records of the Versicolor and Virginica flowers.""")
-        f.write("\n ")
-        f.write("\n ")
-        f.write("<div align='center'>")
         f.write("\n")
+        f.write("\n")
+        f.write("\n<h2>PART III: Summary</h2>")
+        f.write("\n")
+        f.write("<div align='center'>")
         f.write("\n <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/matrix.png' alt='Matrix'>")
         f.write("\n</div> ")
         f.write("\n ")
