@@ -1,3 +1,4 @@
+<div align='center'>
 <h1>Analysis of the Dataset.</h1>
 
 <h2>PART I: Histogram Analysis</h2>
@@ -79,3 +80,4 @@ Additionally, argument could be made for the existence of a weak correlation amo
 Conversely, initial indications implied the Setosas broad sepal would be one of the flowers key features, however further investigation showed this to be a less reliable metric for identifying the species. Despite this, the Iris Setosa time and again trended towards the left side of the axis. 
 This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider petal.
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). 
+</div> 
