@@ -33,16 +33,14 @@ The Versicolor and Virginica present as slightly smaller with a majority of reco
  
 
 <h2>PART II: Scatter Plot Analysis</h2>
-
- <h3>Sepal Length vs Sepal Width</h3>
+<div align='center'>
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/1sepallength-vs-sepalwidth.png' alt='SepalLengthvsSepalWidth'>
 </div> 
  
 As the earlier histograms showed, the Iris Setosa had a wide sepal. However, it would appear the Setosa’s sepal width is less distinguishable as previously indicated.
  From this scatter plot, significant overlap appears to exist at the upper bounds of the Versicolor and Virginica’s records, making the Setosa less reliably recognisable by this feature alone.
 A natural correlation between sepal length and width can be observed in the Setosa, as length increases so too does the sepal’s width.
- 
- <h3>Petal Length vs Petal Width</h3>
+ <div align='center'>
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/9petallength-vs-petalwidth.png' alt='PetalLengthvsPetalWidth'>
 </div> 
  
