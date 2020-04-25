@@ -15,14 +15,14 @@ Despite this it seems the petal length of the Iris Virginica is easily distingui
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/hist-petal_width.png' alt='Histogram-Petal Width'>
 </div> 
  
-Similar results can be observed in each speciesï¿½ petal width, with the Setosa flower being easily distinguishable as the smallest, with the majority being in the range of 0.1 to 0.5cm.
+Similar results can be observed in each species’ petal width, with the Setosa flower being easily distinguishable as the smallest, with the majority being in the range of 0.1 to 0.5cm.
 The Virginica has the largest Petal Width, despite this their width varies over a slightly broader range, measuring anywhere from just under 1.5cm to 2.5cm. 
  <div align='center'>
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/hist-sepal_length.png' alt='Histogram-Sepal Length'>
 </div> 
  
 Observing now the Sepal length, we can see this is a prominently large feature of all three of the recorded Iris species.
-Despite this, we can still somewhat distinguish the Sentosaï¿½s Sepal Length as the smallest, with the vast majority of records placing their length around the 5cm mark.
+Despite this, we can still somewhat distinguish the Sentosa’s Sepal Length as the smallest, with the vast majority of records placing their length around the 5cm mark.
 The other two species cover a much broader range, with the Iris Versicolor sharing significant overlap in size with the Iris Virginica, this makes these two species harder to distinguish between. 
  <div align='center'>
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/hist-sepal_width.png' alt='Histogram-Sepal Width'>
@@ -37,9 +37,9 @@ The Versicolor and Virginica present as slightly smaller with a majority of reco
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/1sepallength-vs-sepalwidth.png' alt='SepalLengthvsSepalWidth'>
 </div> 
  
-As the earlier histograms showed, the Iris Setosa had a wide sepal. However, it would appear the Setosaï¿½s sepal width is less distinguishable as previously indicated.
- From this scatter plot, significant overlap appears to exist at the upper bounds of the Versicolor and Virginicaï¿½s records, making the Setosa less reliably recognisable by this feature alone.
-A natural correlation between sepal length and width can be observed in the Setosa, as length increases so too does the sepalï¿½s width.
+As the earlier histograms showed, the Iris Setosa had a wide sepal. However, it would appear the Setosa’s sepal width is less distinguishable as previously indicated.
+ From this scatter plot, significant overlap appears to exist at the upper bounds of the Versicolor and Virginica’s records, making the Setosa less reliably recognisable by this feature alone.
+A natural correlation between sepal length and width can be observed in the Setosa, as length increases so too does the sepal’s width.
  <div align='center'>
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/9petallength-vs-petalwidth.png' alt='PetalLengthvsPetalWidth'>
 </div> 
@@ -57,14 +57,14 @@ We can see the Setosa has the thinnest petal, with most being about 0.1 to 0.5 c
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/2sepallength-vs-petallength.png' alt='SepalLengthvsPetalLength'>
 </div> 
  
-We can see significant overlap in the length of the three species sepal. This was previous observed in the histogram data as a weak identifier of the flowerï¿½s species. 
+We can see significant overlap in the length of the three species sepal. This was previous observed in the histogram data as a weak identifier of the flower’s species. 
 While the Setosa may still appear smaller, there are several outliers amongst the other two species which throw off any trend identification effort. 
-The other interesting thing to note is that there doesnï¿½t seem to be any meaningful correlation between the sepal and petal length for the Setosa, despite a strong one being observable amongst the other two species. 
+The other interesting thing to note is that there doesn’t seem to be any meaningful correlation between the sepal and petal length for the Setosa, despite a strong one being observable amongst the other two species. 
  <div align='center'>
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/10petalwidth-vs-sepallength.png' alt='PetalWidthvsSepalLength' >
 </div> 
  
-In what can be seen as a weak correlation at most, the sepal length does somewhat appear to increase as the petal widens across the three species, this trend arguably doesnï¿½t effect the smaller Setosa in this scatter plot, who remain much more distinguishable than the other two when compared by petal width.
+In what can be seen as a weak correlation at most, the sepal length does somewhat appear to increase as the petal widens across the three species, this trend arguably doesn’t effect the smaller Setosa in this scatter plot, who remain much more distinguishable than the other two when compared by petal width.
  <div align='center'>
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/8petallength-vs-sepalwidth.png' alt='PetalLengthvsSepalWidth'>
 </div> 
@@ -78,7 +78,6 @@ Additionally, argument could be made for the existence of a weak correlation amo
  <img src='https://github.com/ocoleman/pns-project2020/blob/master/plots/matrix.png' alt='Matrix'>
 </div> 
  
- Trends that were observed amongst the histogram data were compounded by the results of the scatter plots. One such instance of this could be observed in the Irisï¿½ sepal length, where significant overlap occurred alongside the existence of outliers among the Versicolors and Virginicas.
-Conversely, initial indications implied the Setosas broad sepal would be one of the flowers key features, however further investigation showed this to be a less reliable metric for identifying the species. Despite this, the Iris Setosa time and again trended towards the left side of the axis. 
-This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider petal.
+ Trends that were observed amongst the histogram data were compounded by the results of the scatter plots. One such instance of this could be observed in the Iris’ sepal length, where significant overlap occurred alongside the existence of outliers among the Versicolors and Virginicas.
+Conversely, initial indications implied the Setosas broad sepal would be one of the flowers key features, however further investigation showed this to be a less reliable metric for identifying the species. Despite this, the Iris Setosa time and again trended towards the left side of the axis. This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider petal.
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). 
