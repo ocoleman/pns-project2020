@@ -86,11 +86,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
  <p><b>Iris Setosa Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th style="min-width: 10px;"></th>
-      <th style="min-width: 10px;">sepal_length</th>
-      <th style="min-width: 10px;">sepal_width</th>
-      <th style="min-width: 10px;">petal_length</th>
-      <th style="min-width: 10px;">petal_width</th>
+      <th></th>
+      <th>sepal_length</th>
+      <th>sepal_width</th>
+      <th>petal_length</th>
+      <th>petal_width</th>
     </tr>
   </thead>
   <tbody>
@@ -140,11 +140,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
 </table><p><b>Iris Versicolor Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th style="min-width: 10px;"></th>
-      <th style="min-width: 10px;">sepal_length</th>
-      <th style="min-width: 10px;">sepal_width</th>
-      <th style="min-width: 10px;">petal_length</th>
-      <th style="min-width: 10px;">petal_width</th>
+      <th></th>
+      <th>sepal_length</th>
+      <th>sepal_width</th>
+      <th>petal_length</th>
+      <th>petal_width</th>
     </tr>
   </thead>
   <tbody>
@@ -194,11 +194,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
 </table><p><b>Iris Virginica Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th style="min-width: 10px;"></th>
-      <th style="min-width: 10px;">sepal_length</th>
-      <th style="min-width: 10px;">sepal_width</th>
-      <th style="min-width: 10px;">petal_length</th>
-      <th style="min-width: 10px;">petal_width</th>
+      <th></th>
+      <th>sepal_length</th>
+      <th>sepal_width</th>
+      <th>petal_length</th>
+      <th>petal_width</th>
     </tr>
   </thead>
   <tbody>
