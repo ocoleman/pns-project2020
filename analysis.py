@@ -361,6 +361,11 @@ def table(df):
                 f.write("<b>Iris Virginica Statistics </b>")
                 f.write(virg.to_html())
        
+        with open("Tables.md") as f:
+                lines = f.readlines()
+                
+                with open("Analysis.md", "a") as f1:
+                        f1.writelines(lines)
 
 
 
