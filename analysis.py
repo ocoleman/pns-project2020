@@ -343,6 +343,7 @@ def matrix():
         g.savefig("plots/matrix.png")
 
 def table(df):
+
         #Table that outputs some of the numeric data that can be extracted by pandas. 
         iris_set = df[df['species'] == 'setosa']
         iris_vers = df[df['species'] == 'versicolor']
@@ -354,13 +355,15 @@ def table(df):
         vers = iris_vers.describe(percentiles=[])
         virg = iris_virg.describe(percentiles=[])
 
+        pd.set_option('display.max_colwidth', 40)
+
         with open('Tables.md', 'w') as f:
                 f.write("<p><b>Iris Setosa Statistics </b></p>")
-                f.write(seto.to_html().replace('border="1"','border="0"'))
+                f.write(seto.to_html(col_space=10).replace('border="1"','border="0"'))
                 f.write("<p><b>Iris Versicolor Statistics </b></p>")
-                f.write(vers.to_html().replace('border="1"','border="0"'))
+                f.write(vers.to_html(col_space=10).replace('border="1"','border="0"'))
                 f.write("<p><b>Iris Virginica Statistics </b></p>")
-                f.write(virg.to_html().replace('border="1"','border="0"'))
+                f.write(virg.to_html(col_space=10).replace('border="1"','border="0"'))
        
         with open("Tables.md") as f:
                 lines = f.readlines()
