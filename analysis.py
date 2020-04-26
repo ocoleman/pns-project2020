@@ -104,7 +104,8 @@ Additionally, argument could be made for the existence of a weak correlation amo
 Conversely, initial indications implied the Setosas broad sepal would be one of the flowers key features, however further investigation showed this to be a less reliable metric for identifying the species. Despite this, the Iris Setosa time and again trended towards the left side of the axis. This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider petal.
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). """)
                 f.write("\n ")
-                f.write("\n <h3>Below are some numerical statistics</h3>")
+                f.write("\n Below are some numerical statistics. These statistics include the mean standard deviation (std), median (50%), min and max of the data for each of the respective species...")
+                f.write("\n ")
                 f.write("\n ")
 
 #Function that creates and saves images of the histograms of each variable.
@@ -358,11 +359,11 @@ def table(df):
 
         with open('Tables.md', 'w') as f:
                 f.write("<p><b>Iris Setosa Statistics </b></p>")
-                f.write(seto.to_html(col_space=10).replace('border="1"','border="0"'))
+                f.write(seto.to_html().replace('border="1"','border="0"'))
                 f.write("<p><b>Iris Versicolor Statistics </b></p>")
-                f.write(vers.to_html(col_space=10).replace('border="1"','border="0"'))
+                f.write(vers.to_html().replace('border="1"','border="0"'))
                 f.write("<p><b>Iris Virginica Statistics </b></p>")
-                f.write(virg.to_html(col_space=10).replace('border="1"','border="0"'))
+                f.write(virg.to_html().replace('border="1"','border="0"'))
        
         with open("Tables.md") as f:
                 lines = f.readlines()

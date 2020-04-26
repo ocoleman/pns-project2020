@@ -83,14 +83,15 @@ Conversely, initial indications implied the Setosas broad sepal would be one of 
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). 
  
  <h3>Below are some numerical statistics</h3>
+ 
  <p><b>Iris Setosa Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th style="min-width: 10px;"></th>
-      <th style="min-width: 10px;">sepal_length</th>
-      <th style="min-width: 10px;">sepal_width</th>
-      <th style="min-width: 10px;">petal_length</th>
-      <th style="min-width: 10px;">petal_width</th>
+      <th style="min-width: 200px;"></th>
+      <th style="min-width: 200px;">sepal_length</th>
+      <th style="min-width: 200px;">sepal_width</th>
+      <th style="min-width: 200px;">petal_length</th>
+      <th style="min-width: 200px;">petal_width</th>
     </tr>
   </thead>
   <tbody>
@@ -140,11 +141,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
 </table><p><b>Iris Versicolor Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th style="min-width: 10px;"></th>
-      <th style="min-width: 10px;">sepal_length</th>
-      <th style="min-width: 10px;">sepal_width</th>
-      <th style="min-width: 10px;">petal_length</th>
-      <th style="min-width: 10px;">petal_width</th>
+      <th style="min-width: 200px;"></th>
+      <th style="min-width: 200px;">sepal_length</th>
+      <th style="min-width: 200px;">sepal_width</th>
+      <th style="min-width: 200px;">petal_length</th>
+      <th style="min-width: 200px;">petal_width</th>
     </tr>
   </thead>
   <tbody>
@@ -194,11 +195,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
 </table><p><b>Iris Virginica Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th style="min-width: 10px;"></th>
-      <th style="min-width: 10px;">sepal_length</th>
-      <th style="min-width: 10px;">sepal_width</th>
-      <th style="min-width: 10px;">petal_length</th>
-      <th style="min-width: 10px;">petal_width</th>
+      <th style="min-width: 200px;"></th>
+      <th style="min-width: 200px;">sepal_length</th>
+      <th style="min-width: 200px;">sepal_width</th>
+      <th style="min-width: 200px;">petal_length</th>
+      <th style="min-width: 200px;">petal_width</th>
     </tr>
   </thead>
   <tbody>
