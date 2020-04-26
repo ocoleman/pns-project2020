@@ -28,15 +28,21 @@ An example of the Setosa
 
 <h2> Sources </h2>
 
-
 [1] Bradley Efron, R. A. Fisher in the 21st Century, (1996), Statistical Science
 1998, Vol. 13, No. 2, p. 113
+<br><br>
 [2] THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS, https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x
+<br><br>
 [3] Machine Learning with Iris Dataset, https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
+<br><br>
 [4] Flower Classifcation Iris Dataset, https://github.com/Kailash7dev/Flower-Classification-Iris-Dataset
+<br><br>
 [5] Project2018-iris, https://github.com/RitRa/Project2018-iris
+<br><br>
 [6] Iris Flower Data Set Project, https://github.com/ildaro/Iris-Flower
+<br><br>
 [7] Statistical Analysis of the Iris Flower Dataset, http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+<br><br>
 
 Iris Flower Dataset acquired from: https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv
 
