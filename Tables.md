@@ -1,4 +1,4 @@
-<p align='center'><b>Iris Setosa Statistics </b></p><table border="0" class="dataframe">
+<p><b>Iris Setosa Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -52,7 +52,7 @@
       <td>0.60000</td>
     </tr>
   </tbody>
-</table><p align='center'><b>Iris Versicolor Statistics </b></p><table border="0" class="dataframe">
+</table><p><b>Iris Versicolor Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -106,7 +106,7 @@
       <td>1.800000</td>
     </tr>
   </tbody>
-</table><p align='center'><b>Iris Virginica Statistics </b></p><table border="0" class="dataframe">
+</table><p><b>Iris Virginica Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>

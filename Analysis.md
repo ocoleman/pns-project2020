@@ -83,7 +83,7 @@ Conversely, initial indications implied the Setosas broad sepal would be one of 
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). 
  
  <h3>Below are some numerical statistics</h3>
- <p align='center'><b>Iris Setosa Statistics </b></p><table border="0" class="dataframe">
+ <p><b>Iris Setosa Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -137,7 +137,7 @@ The Versicolor was found to be somewhere in the middle, although it often shared
       <td>0.60000</td>
     </tr>
   </tbody>
-</table><p align='center'><b>Iris Versicolor Statistics </b></p><table border="0" class="dataframe">
+</table><p><b>Iris Versicolor Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -191,7 +191,7 @@ The Versicolor was found to be somewhere in the middle, although it often shared
       <td>1.800000</td>
     </tr>
   </tbody>
-</table><p align='center'><b>Iris Virginica Statistics </b></p><table border="0" class="dataframe">
+</table><p><b>Iris Virginica Statistics </b></p><table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
