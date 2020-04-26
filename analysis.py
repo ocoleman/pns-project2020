@@ -355,11 +355,11 @@ def table(df):
         virg = iris_virg.describe(percentiles=[])
 
         with open('Tables.md', 'w') as f:
-                f.write("<p align='center'><b>Iris Setosa Statistics </b></p>")
+                f.write("<p><b>Iris Setosa Statistics </b></p>")
                 f.write(seto.to_html().replace('border="1"','border="0"'))
-                f.write("<p align='center'><b>Iris Versicolor Statistics </b></p>")
+                f.write("<p><b>Iris Versicolor Statistics </b></p>")
                 f.write(vers.to_html().replace('border="1"','border="0"'))
-                f.write("<p align='center'><b>Iris Virginica Statistics </b></p>")
+                f.write("<p><b>Iris Virginica Statistics </b></p>")
                 f.write(virg.to_html().replace('border="1"','border="0"'))
        
         with open("Tables.md") as f:
