@@ -12,7 +12,7 @@
 
 <img src="https://thegoodpython.com/assets/images/iris-species.png" alt="Iris Species">
 
-<p align="center">Iris flower species (Iris setosa, I. virginica and I. versicolor)</p>
+<p align="center">Fig: Iris flower species (Iris setosa, I. virginica and I. versicolor) (Source: TheGoodPython.com)</p>
 
 <br>
 <br>
