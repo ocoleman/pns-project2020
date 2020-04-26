@@ -350,9 +350,9 @@ def table(df):
 
         
         #pandas.describe() functions
-        seto = iris_set.describe()
-        vers = iris_vers.describe()
-        virg = iris_virg.describe()
+        seto = iris_set.describe(percentiles=[])
+        vers = iris_vers.describe(percentiles=[])
+        virg = iris_virg.describe(percentiles=[])
 
         with open('Tables.md', 'w') as f:
                 f.write("<b>Iris Setosa Statistics </b>")

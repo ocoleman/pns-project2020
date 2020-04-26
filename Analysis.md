@@ -123,25 +123,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
       <td>0.10000</td>
     </tr>
     <tr>
-      <th>25%</th>
-      <td>4.80000</td>
-      <td>3.125000</td>
-      <td>1.400000</td>
-      <td>0.20000</td>
-    </tr>
-    <tr>
       <th>50%</th>
       <td>5.00000</td>
       <td>3.400000</td>
       <td>1.500000</td>
       <td>0.20000</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>5.20000</td>
-      <td>3.675000</td>
-      <td>1.575000</td>
-      <td>0.30000</td>
     </tr>
     <tr>
       <th>max</th>
@@ -191,25 +177,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
       <td>1.000000</td>
     </tr>
     <tr>
-      <th>25%</th>
-      <td>5.600000</td>
-      <td>2.525000</td>
-      <td>4.000000</td>
-      <td>1.200000</td>
-    </tr>
-    <tr>
       <th>50%</th>
       <td>5.900000</td>
       <td>2.800000</td>
       <td>4.350000</td>
       <td>1.300000</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>6.300000</td>
-      <td>3.000000</td>
-      <td>4.600000</td>
-      <td>1.500000</td>
     </tr>
     <tr>
       <th>max</th>
@@ -259,25 +231,11 @@ The Versicolor was found to be somewhere in the middle, although it often shared
       <td>1.40000</td>
     </tr>
     <tr>
-      <th>25%</th>
-      <td>6.22500</td>
-      <td>2.800000</td>
-      <td>5.100000</td>
-      <td>1.80000</td>
-    </tr>
-    <tr>
       <th>50%</th>
       <td>6.50000</td>
       <td>3.000000</td>
       <td>5.550000</td>
       <td>2.00000</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>6.90000</td>
-      <td>3.175000</td>
-      <td>5.875000</td>
-      <td>2.30000</td>
     </tr>
     <tr>
       <th>max</th>
