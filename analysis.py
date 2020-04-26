@@ -103,7 +103,7 @@ Additionally, argument could be made for the existence of a weak correlation amo
                 f.write("""\n Trends that were observed amongst the histogram data were compounded by the results of the scatter plots. One such instance of this could be observed in the Iris’ sepal length, where significant overlap occurred alongside the existence of outliers among the Versicolors and Virginicas.
 Conversely, initial indications implied the Setosas broad sepal would be one of the flowers key features, however further investigation showed this to be a less reliable metric for identifying the species. Despite this, the Iris Setosa time and again trended towards the left side of the axis. This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider petal.
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). """)
-        
+                
 
 
 #Function that creates and saves images of the histograms of each variable.
@@ -343,37 +343,23 @@ def matrix():
 
 def table(df):
         #Table that outputs some of the numeric data that can be extracted by pandas. 
-        
         iris_set = df[df['species'] == 'setosa']
         iris_vers = df[df['species'] == 'versicolor']
         iris_virg = df[df['species'] == 'virginica']
 
+        
         #pandas.describe() functions
         seto = iris_set.describe()
         vers = iris_vers.describe()
         virg = iris_virg.describe()
 
-        #creating a table for the data.
-        plot = plt.subplot(111, frame_on=False)
-        plot.xaxis.set_visible(False) 
-        plot.yaxis.set_visible(False) 
-        pd.plotting.table(plot, seto, loc='best')
-        plt.savefig("plots/describesetosa.png")
-        plt.clf()
+        with open('Tables.md', 'w') as f:
 
-        plot = plt.subplot(111, frame_on=False)
-        plot.xaxis.set_visible(False) 
-        plot.yaxis.set_visible(False) 
-        pd.plotting.table(plot, vers, loc='best')
-        plt.savefig("plots/describeversicolor.png")
-        plt.clf()
+                f.write(seto.to_html())
+                f.write(vers.to_html())
+                f.write(virg.to_html())
+       
 
-        plot = plt.subplot(111, frame_on=False)
-        plot.xaxis.set_visible(False) 
-        plot.yaxis.set_visible(False) 
-        pd.plotting.table(plot, virg, loc='best')
-        plt.savefig("plots/describevirginica.png")
-        
 
 
 
