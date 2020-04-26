@@ -103,8 +103,9 @@ Additionally, argument could be made for the existence of a weak correlation amo
                 f.write("""\n Trends that were observed amongst the histogram data were compounded by the results of the scatter plots. One such instance of this could be observed in the Iris’ sepal length, where significant overlap occurred alongside the existence of outliers among the Versicolors and Virginicas.
 Conversely, initial indications implied the Setosas broad sepal would be one of the flowers key features, however further investigation showed this to be a less reliable metric for identifying the species. Despite this, the Iris Setosa time and again trended towards the left side of the axis. This leads me to conclude it is likely the smallest of the three flowers. The Virginica is probably the largest as was evident by its large features, such as possessing a longer and wider petal.
 The Versicolor was found to be somewhere in the middle, although it often shared overlap with the Virginica, at times making it at times making the two indistinguishable (see Sepal Length). """)
-                
-
+                f.write("\n ")
+                f.write("\n <h3>Below are some numerical statistics</h3>")
+                f.write("\n ")
 
 #Function that creates and saves images of the histograms of each variable.
 def hist(df):
@@ -355,11 +356,11 @@ def table(df):
 
         with open('Tables.md', 'w') as f:
                 f.write("<b>Iris Setosa Statistics </b>")
-                f.write(seto.to_html())
+                f.write(seto.to_html().replace('border="1"','border="0"'))
                 f.write("<b>Iris Versicolor Statistics </b>")
-                f.write(vers.to_html())
+                f.write(vers.to_html().replace('border="1"','border="0"'))
                 f.write("<b>Iris Virginica Statistics </b>")
-                f.write(virg.to_html())
+                f.write(virg.to_html().replace('border="1"','border="0"'))
        
         with open("Tables.md") as f:
                 lines = f.readlines()
