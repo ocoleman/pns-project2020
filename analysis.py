@@ -354,9 +354,11 @@ def table(df):
         virg = iris_virg.describe()
 
         with open('Tables.md', 'w') as f:
-
+                f.write("<b>Iris Setosa Statistics </b>")
                 f.write(seto.to_html())
+                f.write("<b>Iris Versicolor Statistics </b>")
                 f.write(vers.to_html())
+                f.write("<b>Iris Virginica Statistics </b>")
                 f.write(virg.to_html())
        
 
