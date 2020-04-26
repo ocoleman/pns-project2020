@@ -1,7 +1,5 @@
 # pns-project2020
 
-<div style="font-size:180%">
-  
 ## Table of contents
 1. [Introduction](#introduction)
 
@@ -10,8 +8,6 @@
 3. [Current & Future Analysis of the Dataset](#otheranalysis)
 
 4. [Sources](#sources)
-
-</div>
 
 ### Introduction <a name="introduction"></a>
 <p>The Fisher's Iris data set is a multivariate data set that contains 150 records taken from three different species of iris flower. The data set was first introduced by biologist Ronald Fisher in his 1936 paper *The use of multiple measurements in taxonomic problems*. Fisher has been called a genius and "the single most important figure in 20th century statistics"[1]. The Iris flower dataset is still used as an example of discriminant analysis, a method which is used in machine learning and pattern recognition[2]. This is due to it being once of the first widely available datasets of its kind. For each of the three species of Iris measured in the data set, there are 50 samples, with each sample having 4 features: the sepal length and sepal width of each flower (in centimeters). </p>
