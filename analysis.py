@@ -3,6 +3,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+
+#To ensure a subdirectory named plots exists, if not it is created.
+if not os.path.exists('plots'):
+        os.mkdir('plots')
+
 
 
 
